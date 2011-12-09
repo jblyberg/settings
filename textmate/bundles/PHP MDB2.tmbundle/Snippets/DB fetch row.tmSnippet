@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:row} = \$${2:res}-&gt;fetchRow(${3:MDB2_FETCHMODE_ASSOC});</string>
+	<key>name</key>
+	<string>DB fetch row</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>dbfr</string>
+	<key>uuid</key>
+	<string>45CF0AC7-2A7A-46FC-B5AB-B5D55CEA8485</string>
+</dict>
+</plist>

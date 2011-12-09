@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PHP MDB2</string>
+	<key>ordering</key>
+	<array>
+		<string>6B6CC9AA-56FD-4272-B1B2-D99F44DE3D45</string>
+		<string>324BA011-5282-4BA2-82D2-FD603137986F</string>
+		<string>A8177532-5D57-49EA-B384-8491B2F07950</string>
+		<string>45CF0AC7-2A7A-46FC-B5AB-B5D55CEA8485</string>
+		<string>7AC7F5D2-92E9-42E9-B005-C5651EF8FDCB</string>
+		<string>65A2DA19-3A00-405A-9A57-E675DAAB6155</string>
+		<string>05835366-4D40-4378-BFF8-E3C5B18BAF36</string>
+	</array>
+	<key>uuid</key>
+	<string>6A4032D8-702E-4CE0-B153-D25630F149F0</string>
+</dict>
+</plist>

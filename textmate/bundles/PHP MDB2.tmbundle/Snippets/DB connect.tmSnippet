@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:db} =&amp; MDB2::connect('\$${2:dsn}');
+if (PEAR::isError(\$${1:db})) {
+    die(\$${1:db}-&gt;getMessage());
+}</string>
+	<key>name</key>
+	<string>DB connect</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>dbc</string>
+	<key>uuid</key>
+	<string>324BA011-5282-4BA2-82D2-FD603137986F</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:res} =&amp; \$${2:db}-&gt;query(${3:'SELECT * FROM mytable'});
+
+/* Do stuff */
+
+\$${1:res}-&gt;free();</string>
+	<key>name</key>
+	<string>DB query</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>dbq</string>
+	<key>uuid</key>
+	<string>A8177532-5D57-49EA-B384-8491B2F07950</string>
+</dict>
+</plist>

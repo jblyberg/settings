@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:dsn} = '${2:mysql}://${3:username}:${4:password}@${5:localhost}${6::3306}/${7:DBname}';</string>
+	<key>name</key>
+	<string>DSN definition</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>dsn</string>
+	<key>uuid</key>
+	<string>6B6CC9AA-56FD-4272-B1B2-D99F44DE3D45</string>
+</dict>
+</plist>
