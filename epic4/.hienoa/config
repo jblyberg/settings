@@ -1,0 +1,86 @@
+# hienoa config file (Thu Aug 21 13:56:25 2008)
+
+//notify - 
+@ h.cfg.awaymessage = [gone..]
+@ h.cfg.backmessage = [hi]
+@ h.cfg.away_change_nick = 0
+@ h.cfg.awaylog_dcc = 0
+@ h.cfg.awaylog_hilight = 1
+@ h.cfg.awaylog_msg = 1
+@ h.cfg.awaylog_notice = 0
+@ h.cfg.auto_away_time = [15]
+@ h.cfg.away_nick = [MeAway]
+@ h.cfg.away_timestamp = 0
+@ h.cfg.auto_away = 0
+@ h.cfg.auto_back = 0
+@ h.cfg.public_away = 0
+@ h.cfg.public_away_channels = []
+set auto_rejoin OFF
+@ h.cfg.hilight_notify = 0
+@ h.cfg.max_modes = [3]
+@ h.cfg.timestamp = 0
+@ h.cfg.names_sort_alpha = 1
+@ h.cfg.timestamp_strftime = [%H:%M]
+@ h.cfg.hilight_words = [blyberg sandoz jblyberg sopac locum insurge]
+@ h.cfg.dcc_append_nick = 
+@ h.cfg.dcc_auto_chat = 0
+@ h.cfg.dcc_auto_get = 0
+set dcc_store_path /home/jblyberg/
+set dcc_timeout 3600
+@ h.cfg.dcc_accept_list = []
+set dcc_use_gateway_addr OFF
+@ h.cfg.ctcp_flood = 0
+@ h.cfg.msg_flood = 0
+@ h.cfg.notice_flood = 0
+set flood_rate 3
+set flood_after 6
+@ h.cfg.flood_ignore = [120]
+@ h.cfg.banmask = [3]
+@ h.cfg.tab_max_nicks = [5]
+@ h.cfg.nickcomp = 1
+@ h.cfg.nickcomp_char = [:]
+@ h.cfg.paste_timeout = [0]
+@ h.cfg.config_save = 1
+@ h.cfg.zaptime = [10]
+@ h.cfg.show_os = 0
+@ h.cfg.random_kick = 1
+@ h.cfg.random_quit = 1
+@ h.cfg.log_chan = 0
+@ h.cfg.log_msg = 0
+@ h.cfg.log_dir = [~/.hienoa/logs]
+@ h.cfg.log_prefix = 1
+@ h.cfg.log_chan_timestamp = 1
+@ h.cfg.log_file_prefix_year = 0
+@ h.cfg.log_file_prefix_month = 0
+@ h.cfg.log_file_prefix_day = 0
+@ h.cfg.log_msg_timestamp = 1
+@ h.cfg.log_store_daily = 0
+@ h.cfg.log_store_monthly = 0
+@ h.cfg.log_store_yearly = 0
+@ h.cfg.log_msg_strftime = [%x %X]
+@ h.cfg.log_strip_hash = 1
+@ h.cfg.colorify_nicks = 0
+set beep ON
+set color ON
+set clock_24hour OFF
+@ h.cfg.show_nick_status = 0
+@ h.cfg.strip_crap = 0
+@ h.cfg.theme = [mything]
+set connect_timeout 30
+@ h.cfg.default_usermode = [+i]
+set max_reconnects 4
+set auto_reconnect ON
+set auto_reconnect_delay 0
+set suppress_server_motd 
+@ h.cfg.shorturl_host = [127.0.0.1]
+@ h.cfg.shorturl_maxnum = [100]
+@ h.cfg.shorturl_port = [1823]
+@ h.cfg.shorturl_enabled = 0
+@ h.cfg.url_grab = 0
+@ h.cfg.url_command = [mozilla -remote openurl(%s)]
+@ h.cfg.url_grab_file = [~/.hienoa/url]
+@ h.cfg.aop_delay = [5]
+@ h.cfg.userlist_save = 1
+@ h.cfg.xterm_force = 0
+@ h.cfg.xterm_maxlen = [0]
+@ h.cfg.xterm_enable = 0
