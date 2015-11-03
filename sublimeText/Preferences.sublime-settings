@@ -1,0 +1,22 @@
+{
+	"color_scheme": "Packages/User/Monokai Aqua (SL).tmTheme",
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"margin": 4,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"tab_size": 4,
+	"theme": "ProKit.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
+}
