@@ -1,0 +1,24 @@
+# Find lots more stations at http://www.iheard.com
+# symlink to /usr/local/lib/python3.5/site-packages/pyradio/stations.csv
+ClassicFM, http://media-ice.musicradio.com/ClassicFMMP3.m3u
+Digitally Imported: Chillout, http://listen.di.fm/public3/chillout.pls
+Digitally Imported: Chillout Dreams, http://listen.di.fm/public3/chilloutdreams.pls
+Digitally Imported: Soulful House, http://listen.di.fm/public3/soulfulhouse.pls
+Digitally Imported: Funky House, http://listen.di.fm/public3/funkyhouse.pls
+Digitally Imported: Progressive, http://listen.di.fm/public3/progressive.pls
+Digitally Imported: Lounge, http://listen.di.fm/public3/lounge.pls
+Digitally Imported: PsyChill, http://listen.di.fm/public3/psychill.pls
+NPR: MPBN Maine Public Radio, http://www.publicbroadcasting.net/mpbc/ppr/mpbn.pls
+NPR: WNYC New York, http://www.wnyc.org/stream/wnyc-fm939/aac.pls
+NPR: WSHU Bridgeport, http://wshu.streamguys.org/wshu-air
+SomaFM: Indie Pop Rocks, http://somafm.com/startstream=indiepop.pls
+SomaFM: Groove Salad (Chillout), http://somafm.com/startstream=groovesalad.pls
+SomaFM: Beat Blender (House), http://somafm.com/startstream=beatblender.pls
+SomaFM: Cliq Hop, http://somafm.com/startstream=cliqhop.pls
+SomaFM: Sonic Universe (Jazz), http://somafm.com/startstream=sonicuniverse.pls
+SomaFM: Tags Trance Trip (Progressive), http://somafm.com/tagstrance.pls
+SomaFM: Illinois Street Lounge (Lounge), http://somafm.com/illstreet.pls
+SomaFM: Secret Agent (Downtempo), http://somafm.com/secretagent.pls
+SomaFM: Covers, http://somafm.com/covers.pls
+SomaFM: Digitalis (Rock), http://somafm.com/digitalis.pls
+SomaFM: PopTron! (Pop), http://somafm.com/poptron.pls
