@@ -66,6 +66,9 @@ bind v split-window -v
 # with mouse (click on pretty little boxes)
 set -g mouse-select-window on
 
+# server lock
+bind l lock-server
+set-option -g lock-command 'cmatrix -a -b -u 9; vlock'
 
 # colon :
 bind : command-prompt

@@ -2,5 +2,5 @@
 tmux new-window -n 'Load' 'htop'
 tmux split-window -p 60 -t 2 -h 'ttyload'
 tmux new-window -n 'Music' 'pyradio'
-tmux split-window -t 3 -p 66 -h 'cmatrix'
+tmux split-window -t 3 -p 66 -h 'cmatrix -u 9'
 tmux split-window -t 3 -h 'pianobar'
