@@ -70,7 +70,6 @@ set -g mouse-select-window on
 # colon :
 bind : command-prompt
 
-
 # panes
 set -g mouse-select-pane on
 set -g pane-border-fg black
@@ -100,44 +99,21 @@ set -g message-command-bg black
 setw -g mode-bg colour6
 setw -g mode-fg colour0
 
-# statusline
-set -g status-bg default # transparent
-set -g status-fg magenta
-set -g status-attr default
 
-# default window title colors
-setw -g window-status-fg blue
-setw -g window-status-bg default
-setw -g window-status-attr dim
-
-# active window title colors
-setw -g window-status-current-fg brightred
-setw -g window-status-current-bg default
-setw -g window-status-current-attr bright
-
-# bell alerted window color
-setw -g window-status-bell-bg red
-setw -g window-status-bell-fg white
-setw -g window-status-bell-attr bright
-
-# content alerted color
-setw -g window-status-content-bg blue
-setw -g window-status-content-fg white
-setw -g window-status-content-attr bright
-setw -g window-status-activity-bg blue
-setw -g window-status-activity-fg white
-setw -g window-status-activity-attr bright
-
-# pane borders
-set -g pane-border-fg white
-set -g pane-border-bg default
-set -g pane-active-border-fg brightblack
-set -g pane-active-border-bg default
-
-# command line
-set -g message-fg default
-set -g message-bg default
-set -g message-attr bright
+# window status
+#setw -g window-status-format " #F#I:#W#F "
+#setw -g window-status-current-format " #F#I:#W#F "
+setw -g window-status-format "#[fg=magenta]#[bg=black] #I #[bg=colour16]#[fg=colour4] #W "
+setw -g window-status-current-format "#[bg=brightmagenta]#[fg=black] #I #[fg=colour3]#[bg=colour9] #W "
+setw -g window-status-current-bg colour0
+setw -g window-status-current-fg colour11
+setw -g window-status-current-attr dim
+setw -g window-status-bg green
+setw -g window-status-fg black
+setw -g window-status-attr reverse
+setw -g window-status-content-bg colour0
+setw -g window-status-content-fg colour11
+setw -g window-status-content-attr bold,blink,reverse
 
 # Info on right (requires stlarch-terminusmod font)
 set -g status-right-length 60
