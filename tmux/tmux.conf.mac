@@ -21,6 +21,7 @@ set -g pane-base-index 1
 #set -g default-terminal "screen"
 set -g default-terminal "screen-256color"
 
+
 # source config file
 bind r source-file ~/.tmux.conf
 
@@ -32,63 +33,76 @@ set -g history-limit 15000
 # allow terminal scrolling
 set-option -g terminal-overrides 'xterm*:smcup@:rmcup@'
 
+
+# copy mode
+#unbind [
+#bind Escape copy-mode
+#unbind ]
+bind ] paste-buffer
+
+
+# use vi mode
+setw -g mode-keys vi
+set -g status-keys vi
+setw -g utf8 on
+
+
+# splitting
+unbind %
+bind h split-window -h
+unbind '"'
+bind v split-window -v
+
+# server lock
+bind l lock-server
+set-option -g lock-command 'cmatrix -a -b -u 9; vlock'
+
+# colon :
+bind : command-prompt
+
+# panes
+set -g pane-border-fg black
+set -g pane-active-border-fg brightred
+#set -g pane-active-border-attr blink
+# resize panes with mouse (drag borders)
+
+
 # status line
 set -g status-utf8 on
 set -g status-justify left
 set -g status-bg default
+set -g status-fg colour12
 set -g status-interval 2
 
+
 # messaging
+set -g message-fg black
 set -g message-bg yellow
 set -g message-command-fg blue
 set -g message-command-bg black
 
+
 #window mode
-set-window-option -g mode-bg colour6
-set-window-option -g mode-fg colour0
+setw -g mode-bg colour6
+setw -g mode-fg colour0
 
-# statusline
-set -g status-bg default # transparent
-set -g status-fg magenta
-set -g status-attr default
 
-# default window title colors
-setw -g window-status-fg blue
-setw -g window-status-bg default
-setw -g window-status-attr dim
-
-# active window title colors
-setw -g window-status-current-fg brightred
-setw -g window-status-current-bg default
-setw -g window-status-current-attr bright
-
-# bell alerted window color
-setw -g window-status-bell-bg red
-setw -g window-status-bell-fg white
-setw -g window-status-bell-attr bright
-
-# content alerted color
-setw -g window-status-content-bg blue
-setw -g window-status-content-fg white
-setw -g window-status-content-attr bright
-setw -g window-status-activity-bg blue
-setw -g window-status-activity-fg white
-setw -g window-status-activity-attr bright
-
-# pane borders
-set -g pane-border-fg white
-set -g pane-border-bg default
-set -g pane-active-border-fg brightblack
-set -g pane-active-border-bg default
-
-# command line
-set -g message-fg default
-set -g message-bg default
-set -g message-attr bright
+# window status
+#setw -g window-status-format " #F#I:#W#F "
+#setw -g window-status-current-format " #F#I:#W#F "
+setw -g window-status-format "#[fg=magenta]#[bg=black] #I #[bg=colour16]#[fg=colour4] #W "
+setw -g window-status-current-format "#[bg=magenta]#[fg=black] #I #[fg=colour3]#[bg=colour9] #W "
+setw -g window-status-current-bg colour0
+setw -g window-status-current-fg colour11
+setw -g window-status-current-attr dim
+setw -g window-status-bg green
+setw -g window-status-fg black
+setw -g window-status-attr reverse
 
 # Info on right (requires stlarch-terminusmod font)
 set -g status-right-length 60
 set -g status-right '#[fg=colour7]| #[fg=brightgreen]%a %H:%M'
+
 
 # Info on left (I don't have a session display for now)
 set -g status-left ''
@@ -104,3 +118,9 @@ set-option -g bell-action none
 
 # tmux clock
 set -g clock-mode-colour blue
+
+
+# some key-binding changes
+bind x kill-pane
+bind X next-layout
+bind Z previous-layout
